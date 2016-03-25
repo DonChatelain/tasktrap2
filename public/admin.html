@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="taskTrap">
+<head>
+	<title>Admin | TaskTrap 2.0</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="./css/skeleton.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+<body ng-controller="mainController">
+<div class="container">
+
+
+	<h1>TaskTrap <span>Edit Tasks</span></h1>
+	<h5>{{todos.length}} Items</h5>
+	<section class="addNew">
+		<form class="row">
+			<input class="seven columns" placeholder="Add a New Task Here!" ng-model="formData.text">
+			<button class="three columns" type="submit" ng-click="addTodo()">Add</button>
+		</form>
+	</section>
+	<hr>
+	<section class="list">
+		<div ng-repeat="todo in todos" class="task row" ng-class="{'editing-item': editing}">
+			
+			<!-- <input type="checkbox" ng-model="todo.completed">  -->
+			<label ng-hide="editing" class="nine columns" ng-click="editing=true;">{{todo.text}}</label>
+			<form>
+				<input ng-show="editing" class="six columns" ng-blur="editing=false;" ng-model="todo.text" type="text" >
+				<button ng-show="editing" class="save" type="submit" ng-click="editing=false;">save</button>
+				
+			</form>
+			<button ng-click="deleteTodo(todo._id)" class="u-pull-right delete">delete</button>
+
+			<div class="actions">
+				<!-- <a href="" ng-click="deleteTodo(todo._id)" class="delete">delete</a> -->
+			</div>
+			<br>
+		</div>
+	</section>
+
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="./core.js"></script>
+</body>
+</html>

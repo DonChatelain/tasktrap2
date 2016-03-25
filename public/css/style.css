@@ -1,0 +1,58 @@
+.editing-item {
+
+}
+
+.actions {
+	display: inline;
+}
+
+form {
+	display: inline;
+}
+
+input {
+	height: 37px;
+}
+
+span {
+	font-size: 32px;
+}
+
+.indented {
+	text-indent: 30px;
+}
+
+.task {
+	padding: 10px;
+    height: 38px;
+    line-height: 38px;
+    color: #5A5A5A;
+}
+.task:nth-child(even) {
+	background: #efefef;
+}
+
+button.delete {
+	background: #fefefe;
+	color: #DA4141;
+	border: 1px solid #DA4141;
+	padding: 1px 8px;
+	-webkit-transition: background 200ms ease, color 200ms ease;
+}
+button.delete:hover {
+	background: #DA4141;
+	color: #fff;
+}
+
+button.save {
+	background: #fefefe;
+	color: #1BB584;
+	border: 1px solid #1BB584;
+	padding: 1px 8px;
+	margin-left: 5px;
+	-webkit-transition: background 200ms ease, color 200ms ease;
+}
+button.save:hover {
+	background: #1BB584;
+	color: #fff;
+}

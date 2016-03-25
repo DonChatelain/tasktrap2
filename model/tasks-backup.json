@@ -1,0 +1,45 @@
+{
+  "Employees" : [ {
+    "employeeName" : "PLACE_HOLDER_CAKTASS_JOHN",
+    "employeeNumber" : "112233445566778899123",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "Dustyn_H",
+    "employeeNumber" : "4377",
+    "managerAccess" : "yes"
+  }, {
+    "employeeName" : "chuck",
+    "employeeNumber" : "111",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "ALEX_L",
+    "employeeNumber" : "6667",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "MICAH_L",
+    "employeeNumber" : "43",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "JORDAN_",
+    "employeeNumber" : "342",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "TRAVIS_H",
+    "employeeNumber" : "1890",
+    "managerAccess" : "no"
+  }, {
+    "employeeName" : "KEVIN_M",
+    "employeeNumber" : "169",
+    "managerAccess" : "no"
+  } ],
+  "Task" : [ {
+    "group" : "Place_Holder_Caktass_John",
+    "groupArray" : [ "Place_Holder_Task" ]
+  }, {
+    "group" : "A1",
+    "groupArray" : [ "Stocking:baskets", "Stocking:to go boxes", "Stocking:share plates", "Stocking:napkins", "Stocking:silverware ", "Stocking:straws", "Stocking:lids", "Stocking:coffee", "Stocking:tea", "Stocking:ketchup  ", "Stocking:mustards", "Fridge:milk", "Fridge:creamer", "Fridge:whipped  cream  ", "Fridge:cherries  ", "Fridge:lemons ", "Fridge:apple juice  ", "Fridge:orange  juice  ", "Cleaning:spot sweep", "Cleaning:wipe fridge inside and out", "Cleaning:counter tops", "Cleaning:reset any unoccupied  tables", "Cleaning: sink in wait station ", "Cleaning:high chairs", "Cleaning:silverware ", "Cleaning:ice well", "Check in with the MOD" ]
+  }, {
+    "group" : "B1",
+    "groupArray" : [ "Stocking:baskets", "Stocking:to go boxes", "Stocking:share plates", "Stocking:napkins", "Stocking:silverware ", "Stocking:ketchup  ", "Stocking:mustards ", "Stocking:tea", "Stocking:coffee", "Stocking:paper towels ", "Stocking:soap in wait station", "Stocking: backup lemonade  ", "Cleaning:sweep", "Cleaning:mop", "Cleaning: reset all tables" ]
+  } ]
+}
